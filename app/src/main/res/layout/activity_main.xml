@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:orientation="vertical"
+    tools:context="com.example.cq.android_master.MainActivity">
+
+    <Button
+        android:id="@+id/tv_ydy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引导页"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/tv_yxjdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="圆形进度条"
+        app:layout_constraintBottom_toBottomOf="@id/tv_ydy"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="50dp" />
+
+</LinearLayout>

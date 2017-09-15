@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="CBPullRefreshLibrary-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/5963238bb3aa0957ed9fe3cc2ea4d9549d455b7d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/5963238bb3aa0957ed9fe3cc2ea4d9549d455b7d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhl.cbpullrefresh/CBPullRefreshLibrary/1.0.0/b8ccc67d089506a0673a6c0812f76a28489f80d1/CBPullRefreshLibrary-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
