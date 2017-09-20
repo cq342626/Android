@@ -35,4 +35,7 @@ dependencies {
     // 绑定id（可初始化view并监听）
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    // 添加悬浮移动所需要的jar
+    compile 'com.ufreedom.uikit:FloatingViewLib:1.0.2'
 }
