@@ -1,1 +1,1 @@
-include ':app', ':userguidelibrary', ':java'
+include ':app', ':userguidelibrary', ':java', ':java_master'
