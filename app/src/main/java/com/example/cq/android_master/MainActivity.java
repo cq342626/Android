@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.cq.android_master.CircleProgressView.CircleProgressActivity;
+import com.example.cq.android_master.FloatingView.FloatingViewActivity;
 import com.example.cq.android_master.UserGuideView.UserGActivity;
 
 import butterknife.BindView;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         tvYdy.setText("nishi dianji ");
     }
 
-    @OnClick({R.id.tv_ydy, R.id.tv_yxjdt})
+    @OnClick({R.id.tv_ydy, R.id.tv_yxjdt, R.id.tv_dognhua})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.tv_ydy:
@@ -37,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.tv_yxjdt:
                 Intent intent_tv_yxjdt = new Intent(this, CircleProgressActivity.class);
                 startActivity(intent_tv_yxjdt);
+                break;
+            case R.id.tv_dognhua:
+                Intent intent_tv_dognhua = new Intent(this, FloatingViewActivity.class);
+                startActivity(intent_tv_dognhua);
                 break;
         }
     }
