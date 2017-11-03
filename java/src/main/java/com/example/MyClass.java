@@ -8,7 +8,6 @@ import javax.script.ScriptException;
 
 public class MyClass {
 
-
     public static void main(String[] args) throws ScriptException {
         one(new int[]{5, 2, 41});
         two(new Object[]{1, 2, 3, 4, 5}, new Object[]{"a", "b", "c", "d", "e"});
